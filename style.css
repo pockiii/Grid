@@ -1,0 +1,59 @@
+* {
+	-webkit-transition-property: all;
+	-webkit-transition-duration: .4s;  
+	-moz-transition-property: all;
+    -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+}
+h1 {
+	font-family: "Michroma";
+    color: white;
+    font-size: 20px;
+}
+body {
+    background-size: cover;
+    background-image: url("bg.jpg");
+}
+div.image {
+    pointer-events: none;  /*Cancels hover event*/
+    background: url("icon.jpg");
+    background-size:cover;
+}
+.box {
+    text-align: center;
+    margin: .2% .2% .2% .2%;
+    padding: .2%;
+    background: rgba(255, 255, 255, 0.4);
+}
+.box:hover {
+    background: rgba(255, 255, 255, 0.6);
+}
+@media {
+    .column1
+    .column2
+    .column3
+}
+.column-right {
+    position: relative;
+    float: right;
+}
+.column-left {
+    position: relative;
+    float: left;
+}
+.column1 {
+    width: 48.5%;
+    height: 48.3%;
+
+}
+.column2 {
+    width: 49%;
+    height: 30%;
+}
+.column3 {
+    width: 24.1%;
+    height: 35%;
+}
+.column4 {
+    width: 80%;
+    height: 200px;
+}
